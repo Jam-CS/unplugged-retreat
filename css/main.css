@@ -511,6 +511,64 @@ aside {
     }
   }
 
+@media only screen and (min-width:1200px) {
+    /*Desktop styles here*/
+
+    .content-wrapper {
+      max-width: 960px;
+    }
+
+    /* Hero */
+
+    .hero-area h1 {
+      width: 35%;
+    }
+
+
+    /* Aside */
+    aside .content-wrapper {
+      display: flex;
+      justify-content: space-around;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+      width:26%
+  }
+
+  /* Features */
+  .features h2 {
+      width: 50%;
+  }
+
+  .features article {
+      flex-basis: 35%;
+  }
+
+  /* Reviews */ 
+  .reviews article div {
+      width: 15%;
+  }
+
+/* ==========================================================================
+ About Page
+ ========================================================================== */
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+      width: 50%;
+  }
+
+/* ==========================================================================
+ FAQ Page
+ ========================================================================== */
+  .faq h2 {
+      width: 100%;
+  }
+
+}
+
+
+  }
 @media print,
 (-webkit-min-device-pixel-ratio: 1.25),
 (min-resolution: 1.25dppx),
