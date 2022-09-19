@@ -606,6 +606,7 @@ input[type=button] {
 
     .hero-area {
       min-height: 600px;
+      background-size: cover;
     }
 
     .hero-area h1 {
@@ -790,6 +791,11 @@ input[type=button] {
 
     /* Hero */
 
+    .hero-area {
+      min-height: 1200px;
+      background-size: cover;
+    }
+
     .hero-area h1 {
       font-size: 3.75em;
       width:80%;
@@ -885,8 +891,6 @@ input[type=button] {
 
 }
 
-
-  }
 @media print,
 (-webkit-min-device-pixel-ratio: 1.25),
 (min-resolution: 1.25dppx),
